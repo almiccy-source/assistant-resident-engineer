@@ -59,8 +59,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-.
+reported to the community leaders responsible for enforcement at almiccy@gmail.com.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -126,3 +125,50 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+---
+
+Reporting & Enforcement Contact
+
+To report incidents privately and securely, email: almiccy@gmail.com
+(maintainer/enforcement contact). Reports submitted via email will be treated
+as confidential and handled in accordance with the project's Reporting Privacy
+Notice (see REPORTING_PRIVACY_NOTICE.md in this repository).
+
+Privacy & Data Handling (summary)
+
+- The project processes personal data related to reports in accordance with
+  applicable law, including the UAE Personal Data Protection Law (PDPL) where
+  applicable. Reports may include names, contact details, messages, and
+  attachments provided by the reporter.
+- We collect only the minimum personal data necessary to investigate and
+  resolve the complaint.
+- Retention: investigation records will be retained for a limited period (normally
+  up to 24 months) unless legal obligations require longer retention.
+- Data subjects have rights under applicable law (access, correction, deletion
+  where applicable). Contact almiccy@gmail.com to exercise these rights.
+
+Applicability & Local Law
+
+This Code of Conduct governs participation and collaboration within this
+repository and project-related community spaces. All enforcement actions are
+subject to applicable law and local jurisdiction. For contributors or subjects
+based in the United Arab Emirates, matters may be governed by UAE law (including
+PDPL and applicable cybercrime or defamation laws). Where required by law or
+where there is a suspected criminal offense, maintainers may need to disclose
+information to law enforcement in accordance with legal obligations.
+
+Scope Limitation for On-site Project Work
+
+This repository's Code of Conduct applies to collaboration on source code,
+issues, documentation, and project-related online spaces. It does not replace
+employer HR procedures, site HSE incident reporting, or contractually mandated
+dispute resolution processes for on-site construction incidents. For on-site
+safety or contractual disputes, follow the project's site procedures (HSE,
+employer/contractor reporting channels, or the contract's dispute resolution
+clauses).
+
+Arabic translation
+
+An Arabic translation is available at CODE_OF_CONDUCT_AR.md. If you need a
+verified Arabic translation for legal purposes, contact the enforcement team.
