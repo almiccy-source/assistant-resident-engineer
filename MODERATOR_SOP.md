@@ -1,77 +1,94 @@
-# Moderator SOP (Private guidance — recommended to store in a private repo or restrict access)
+# Moderator SOP (Detailed — keep private if possible)
 
-Note: This SOP contains sensitive operational detail. Restrict access to the
-enforcement team and legal counsel. Consider moving this file to a private
-repository or protected location.
+This document expands the initial SOP with more operational controls and a
+checklist for case handling. Recommended: restrict access to this file to the
+enforcement team and legal counsel (store in a private repository or a
+protected directory).
 
-1) Intake
-- Reporting channels: enforcement email (almiccy@gmail.com) or a private form.
-- Acknowledge receipt within 3 business days with a short confirmation (no
-  details of the investigation).
-- Assign a Case ID and record the intake date/time.
+1. Intake (detailed)
+- Reporting channels: enforcement email (almiccy@gmail.com) and private intake
+  form (recommended). The intake form should allow file uploads and should be
+  hosted on a PDPL-compliant service.
+- Acknowledge receipt within 3 business days with a templated message.
+- Assign a unique Case ID (e.g., COCO-2026-0001) and the triage officer.
 
-2) Triage (first 48 hours)
-- Triage officer assesses severity: safety risk, potential criminal conduct,
-  reputational impact, or minor community dispute.
-- If emergency (threat to safety or clear criminality), escalate immediately to
-  legal counsel and consider notifying law enforcement per counsel advice.
+2. Triage (48 hours)
+- Use a triage checklist:
+  - Is there an immediate safety risk to an individual?
+  - Does the complaint implicate potential criminal conduct (defamation,
+    threats, doxxing)?
+  - Does the complaint involve site HSE or contractually-governed disputes?
+  - Is there a pattern of prior complaints against the respondent?
+- Categorise: High / Medium / Low priority.
 
-3) Evidence handling
-- Create a secure case folder (private storage). Do not place PII in public
-  issues or PRs. Use redaction for public summaries.
-- Preserve original materials (messages, screenshots) with metadata.
-- Collect only what is necessary; avoid soliciting extraneous personal data.
+3. Evidence handling and chain of custody
+- Preserve originals: download and store original content in a secure case
+  folder. If content is deleted upstream, preserve the timing metadata and any
+  available backups.
+- Mark evidence provenance: who submitted it, timestamp, and any transformations
+  done (redaction, cropping).
+- Redaction policy: redact irrelevant personal identifiers before any public
+  summary. Keep an unredacted master file in a secure location.
 
-4) Investigation
-- Interview relevant parties (written statements) where appropriate.
-- Maintain impartiality—document all contacts and decisions.
-- If the allegation intersects with on-site HSE or contractual disputes, refer
-  to site procedures and keep the on-site/project stakeholder looped in as
-  appropriate (without publishing PII publicly).
+4. Interviews and statements
+- Request written statements via email or secure form. Keep questions neutral and
+  avoid leading language.
+- If a party refuses to respond, document the refusal and proceed on available
+  evidence.
 
-5) Outcomes
-- Possible outcomes: no action, correction/warning, temporary suspension,
-  permanent ban, referral to employer or law enforcement.
-- Communicate outcomes privately to involved parties. Public statements should
-  be anonymised and cleared with legal counsel.
+5. Decision-making and approvals
+- For corrective actions with material legal risk (public naming, permanent
+  bans, or content removal), require sign-off from at least two moderators and
+  legal counsel.
+- Document the decision rationale and the evidence relied upon.
 
-6) Recordkeeping & retention
-- Keep a case file with timeline, evidence, decisions, and communications.
-- Retain files up to the project’s retention period (default 24 months) unless
-  law requires otherwise.
+6. Communication protocols
+- Use templated communications: Intake Ack, Investigation Update, Outcome
+  Notification, Appeal Acknowledgement.
+- Always communicate outcomes privately. Public statements must be anonymised
+  and, if high-profile, cleared by legal counsel.
 
-7) Escalation
-- High‑risk or legally sensitive cases: escalate to UAE‑qualified legal counsel
-  before any public action.
-- Disputes alleging libel/defamation require legal review prior to any public
-  removal or publication of allegations.
+7. Appeals and review
+- Allow the respondent to submit an appeal within 14 days with new evidence.
+- Appeal reviewed by at least one moderator who was not involved in the original
+  decision and by legal counsel for high‑risk cases.
 
-8) Training & review
-- Provide moderators with annual training on PDPL basics, UAE cybercrime
-  risks, and unconscious bias.
-- Review SOP annually and after any high‑impact case.
+8. Retention, deletion, and audit
+- Retain files up to 24 months by default. Conduct periodic reviews to delete or
+  anonymise older files.
+- Keep an immutable audit log of access and actions. Logs should include user,
+  timestamp, and action performed.
 
-9) Audit trail
-- Maintain an internal audit log of who accessed case files and actions taken.
+9. Privacy & PDPL compliance checklist
+- Confirm lawful basis for processing (recorded in the case file)
+- Ensure minimal data collected
+- Verify cross-border transfer safeguards if data stored outside UAE
+- Record access control list and deletion actions
 
-10) Access control
-- Limit access to the enforcement team. Use multi‑person approval for removal
-  of material that may carry legal risk.
+10. Escalation matrix
+- Low: moderator handles and closes with warning or no action.
+- Medium: enforcement panel (2 moderators) determines action.
+- High / Legal risk: legal counsel involved; potential law enforcement contact.
 
-11) Communication templates
-- Maintain templates for: intake acknowledgment, investigation updates,
-  outcome notification, and appeal receipt.
+11. Operational security
+- Use MFA, least-privilege access, and encrypted storage.
+- Rotate admin keys and access lists quarterly or after a staffing change.
 
-12) Appeals
-- Allow respondents an appeals process (submit additional evidence within 14
-  days). Appeals reviewed by at least one different moderator and legal counsel
-  if required.
+12. Training
+- Provide required reading: PDPL summary, UAE cybercrime overview, this SOP.
+- Annual refreshers and a post-case debrief for high-impact incidents.
 
-13) Interaction with contracts and site procedures
-- For project repositories used in live construction projects, clarify that
-  site incidents follow employer/contractor HSE and contractual dispute
-  resolution channels. Use this SOP for online collaboration issues only.
+13. Template snippets (examples)
+- Intake acknowledgement: "We have received your report (Case ID: XXXX). We
+  will review and respond within 3 business days." 
+- Outcome notification: include case ID, summary of findings, actions taken,
+  and appeal instructions.
 
-14) Privacy compliance
-- Follow the Reporting Privacy Notice. Ensure cross‑border transfer and storage
-  decisions align with PDPL obligations.
+14. Notes on publication and public learning
+- When publishing anonymised learning reports, ensure irreversible
+  anonymisation. Remove timestamps, exact message quotes, and unique phrasing
+  that could re-identify parties.
+
+15. Storage recommendation
+- If possible, move the SOP and case files to a private repository or secure
+  document store and restrict access to the enforcement team.
